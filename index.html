@@ -82,9 +82,9 @@
                   <br>
                   <a href="https://arxiv.org/abs/2409.01353" target="_blank">paper</a>
                   <br>
-                  <strong>
-                    TL;DR: </strong>Existing methods struggle to simultaneously achieve object and part-level segmentation due to the conflicting requirements: parts need local information, while objects require more global information. To solve this,<strong> we introduced a hierarchical superpixel-based model that uses multi-level representation and aggregation  by employing local aggregation for superpixels in part segmentation and global aggregation for group tokens in object segmentation.</strong>
-                </td>
+                  <strong>TL;DR:</strong>
+                  <strong>We developed a hierarchical superpixel-based model that simultaneously addresses two conflicting needs in segmentation: local detail for parts and global context for objects.</strong> By employing local aggregation for superpixels in part segmentation and global aggregation for group tokens in object segmentation, we achieved state-of-the-art performance, surpassing previous methods by 2.8% in part segmentation and 2.0% in object segmentation on common datasets.
+                 </td>
               </tr>
 
               <!-- Existing Papers -->
@@ -119,12 +119,10 @@
                   <a href="https://github.com/UCSC-VLAA/o1_medical" target="_blank">code</a> / 
                   <a href="https://huggingface.co/datasets/UCSC-VLAA/o1_medical" target="_blank">data</a>
                   <br>
-                  <strong>
-                    TL;DR: </strong>
-                  <strong>
-                    We benchmarked OpenAI's o1-preview model on a comprehensive medical benchmarked with 37 datasets covering diverse tasks</strong>, including understanding, reasoning, multilingual capabilities, and agent-based activities. 
-                    Our exploration revealed that OpenAI’s o1-preview outperforms GPT-4 in overall accuracy by approximately 6.4%, marking a significant step toward the development of an AI doctor. Additionally, we presented preliminary findings that enhance clinical reasoning in AI and discussed the model's limitations and future directions for improvement.                </td>
-              </tr>
+                  <strong>TL;DR:</strong>
+                  <strong>We benchmarked OpenAI's o1-preview model on a comprehensive medical dataset covering 37 diverse tasks, including understanding, reasoning, multilingual capabilities, and agent interaction.</strong> Our exploration revealed that OpenAI’s o1-preview outperforms GPT-4 in overall accuracy by approximately 6.4%, marking a significant step toward the development of an AI doctor. Additionally, we presented preliminary findings that enhance clinical reasoning in o1 and discussed the model’s limitations and future directions for improvement.
+                </td>
+                </tr>
 
               <tr>
                 <td style="padding:20px;width:25%;vertical-align:middle">
@@ -157,9 +155,8 @@
                   <br>
                   <a href="https://www.arxiv.org/abs/2408.02900" target="_blank">paper</a> / <a href="https://yunfeixie233.github.io/MedTrinity-25M/" target="_blank">website</a>
                   <br>
-                  <strong>
-                    TL;DR: </strong>
-                    We addressed the challenge of scaling existing medical multimodal models, which struggle due to the lack of large, high-quality datasets. To overcome this, <strong>we introduced MedTrinity-25M, a comprehensive, large-scale dataset containing over 25 million images across 10 modalities, annotated with multigranular labels for more than 65 diseases, including detailed ROIs. We developed an automated pipeline to generate multi-granular visual and textual annotations for any given image </strong>, leveraging dataset metadata, Retrieval-Augmented Generation (RAG) and a medical-specific VLM. Using this dataset, we pretrained medical-specific MLLMs, achieving state-of-the-art results in three medical VQA tasks, surpassing previous models by 8.8%, 3.7%, and 18.3%, respectively.                  </strong>
+                  <strong>TL;DR:</strong>
+                  <strong>To scale up multimodal medical datasets, we developed an automated pipeline to generate multigranular visual and textual annotations for any given medical image.</strong> Based on this pipeline, we introduced MedTrinity-25M, a comprehensive, large-scale dataset containing over 25 million images across 10 modalities, annotated with multigranular labels for more than 65 diseases, including detailed ROIs. Our VLM achieved SOTA results in three medical VQA tasks, exceeding previous benchmarks by 8.8%, 3.7%, and 18.3%.
                 </td>
               </tr>
 
