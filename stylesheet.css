@@ -160,3 +160,119 @@ span.highlight {
   width: 60px;
   margin: 15px 0;
 }
+
+.page {
+  padding: 0 16px;
+  box-sizing: border-box;
+}
+
+.publications,
+.experience-table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0 20px;
+}
+
+.publication-image {
+  width: 34%;
+  padding: 12px 24px 12px 0;
+  vertical-align: middle;
+}
+
+.publication-image img {
+  display: block;
+  width: 100%;
+  max-width: 260px;
+  height: auto;
+}
+
+.publication-details {
+  width: 66%;
+  vertical-align: middle;
+  line-height: 1.5;
+}
+
+.publication-details p {
+  margin: 8px 0 0;
+}
+
+.publication-venue {
+  font-style: italic;
+}
+
+.institution-image {
+  width: 25%;
+  padding: 12px 24px 12px 0;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.institution-image img {
+  max-width: 100%;
+  max-height: 99px;
+  width: auto;
+}
+
+.institution-label {
+  display: inline-block;
+  color: #b30b00;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.experience-details {
+  width: 75%;
+  line-height: 1.5;
+}
+
+.resume-section {
+  margin: 24px 0;
+  line-height: 1.5;
+}
+
+.resume-section li + li {
+  margin-top: 8px;
+}
+
+@media (max-width: 600px) {
+  .profile > tbody > tr > td {
+    display: block;
+    width: 100% !important;
+    max-width: 100% !important;
+    box-sizing: border-box;
+  }
+
+  .profile > tbody > tr > td:last-child {
+    text-align: center;
+  }
+
+  .profile img {
+    width: 220px !important;
+    height: 220px !important;
+  }
+
+  .publications tr {
+    display: block;
+    margin: 20px 0;
+  }
+
+  .publication-image,
+  .publication-details {
+    display: block;
+    width: 100%;
+    padding: 8px 0;
+  }
+
+  .publication-image img {
+    max-width: 300px;
+    margin: 0 auto;
+  }
+
+  .institution-image {
+    padding-right: 12px;
+  }
+
+  .institution-label {
+    font-size: 18px;
+  }
+}
